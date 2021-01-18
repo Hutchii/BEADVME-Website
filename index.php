@@ -8,20 +8,16 @@
   <meta name="author" content="Sebastian Blaik">
   <meta name="theme-color" content="#f6f6f6">
   <title>Agencja Marketingowa - Better Advertising Media</title>
-
   <meta property ="og:title" content="Agencja Marketingowa - Better Advertising Media"/>
   <meta property ="og:description" content="Powierz nam swój wizerunek w sieci!"/>
   <meta property ="og:type" content="website"/>
   <meta property ="og:url" content="https://betteram.pl/"/>
   <meta property ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp"/>
-  
   <meta property ="twitter:title" content="Agencja Marketingowa - Better Advertising Media"/>
   <meta property ="twitter:description" content="Powierz nam swój wizerunek w sieci!"/>
-  <meta property ="og:card" content="summary"/>
-  <meta property ="og:url" content="https://betteram.pl/"/>
-  <meta property ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp"/>
-  
-  
+  <meta property ="twitter:card" content="summary"/>
+  <meta property ="twitter:url" content="https://betteram.pl/"/>
+  <meta property ="twitter:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/twitter.png"/>
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-300.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-500.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-700.woff2" type="font/woff2" crossorigin>
