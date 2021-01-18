@@ -7,11 +7,11 @@
   <meta name="keywords" content="agencja marketing desing grafika strona website kampania">
   <meta name="author" content="Sebastian Blaik">
   <meta name="theme-color" content="#f6f6f6">
-  <meta propety ="og:title" content="Agencja Marketingowa - Better Advertising Media">
-  <meta propety ="og:description" content="Powierz nam swój wizerunek w sieci!">
-  <meta propety ="og:type" content="website">
-  <meta propety ="og:url" content="https://betteram.pl/">
-  <meta propety ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp">
+  <meta property ="og:title" content="Agencja Marketingowa - Better Advertising Media"/>
+  <meta property ="og:description" content="Powierz nam swój wizerunek w sieci!"/>
+  <meta property ="og:type" content="website"/>
+  <meta property ="og:url" content="https://betteram.pl/"/>
+  <meta property ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp"/>
   <title>Agencja Marketingowa - Better Advertising Media</title>
   
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-300.woff2" type="font/woff2" crossorigin> 
