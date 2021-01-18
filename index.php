@@ -13,6 +13,7 @@
   <meta propety ="og:url" content="https://betteram.pl/">
   <meta propety ="og:image" content="https://betteram.pl/">
   <title>Agencja Marketingowa - Better Advertising Media</title>
+  
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-300.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-500.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-700.woff2" type="font/woff2" crossorigin>
