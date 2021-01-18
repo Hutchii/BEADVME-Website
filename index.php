@@ -11,7 +11,7 @@
   <meta propety ="og:description" content="Powierz nam swój wizerunek w sieci!">
   <meta propety ="og:type" content="website">
   <meta propety ="og:url" content="https://betteram.pl/">
-  <meta propety ="og:image" content="https://betteram.pl/">
+  <meta propety ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp">
   <title>Agencja Marketingowa - Better Advertising Media</title>
   
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-300.woff2" type="font/woff2" crossorigin> 
