@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preload" href="js/navbar.js" as="script">
   <link rel="preload" href="js/portfolio.js" as="script">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
 </head>
 <body>
   <style>
@@ -108,13 +112,13 @@
   <section class="portfolio spacer">
     <h2 class="cat">nasze portfolio</h2>
     <div class="grid">
-      <img src="img/p3.webp" 
-        srcset="img/p3m.webp 480w, 
-                img/p3.webp 1920w"
+      <img src="img/p1.webp" 
+        srcset="img/p1m.webp 480w, 
+                img/p1.webp 1920w"
         alt="" width="600" height="700" class="i1">
         <div class="s1">
-          <h3 class="project p1">Valkiria Esports Branding</h3>
-          <p class="serv">Identyfikacje Wizualne</p>
+          <h3 class="project p1">LVBET Esport Social Media</h3>
+          <p class="serv">Social Media</p>
         </div>
       <img src="img/p2.webp" 
         srcset="img/p2m.webp 480w, 
@@ -124,13 +128,13 @@
           <h3 class="project p2">IT Company Booklet Design</h3>
           <p class="serv">Kampanie Dedykowane</p>
         </div>
-        <img src="img/p1.webp" 
-        srcset="img/p1m.webp 480w, 
-                img/p1.webp 1920w"
+        <img src="img/p3.webp" 
+        srcset="img/p3m.webp 480w, 
+                img/p3.webp 1920w"
         alt="" width="600" height="700" class="i3 transform-portfolio" loading="lazy">
         <div class="s3">
-          <h3 class="project p3">LVBET Esport Social Media</h3>
-          <p class="serv">Social Media</p>
+          <h3 class="project p3">Valkiria Esports Branding</h3>
+          <p class="serv">Identyfikacje Wizualne</p>
         </div>
       <img src="img/p4.webp" 
         srcset="img/p4m.webp 480w, 
