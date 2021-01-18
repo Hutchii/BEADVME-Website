@@ -153,9 +153,9 @@
     <h2 class="cat spacer">skontaktuj się z nami</h2>
     <div class="contact-flex">
       <div class="contact-img">
-        <img src="img/contact-big.webp" 
-        srcset="img/contact-small.webp 480w, 
-                  img/contact-big.webp 1920w"
+        <img src="img/contact-test.png" 
+        srcset="img/contact-test.png 480w, 
+                  img/contact-test.png 1920w"
         alt="" width="960" height="540">
       </div>
       <div class="contact-left">
