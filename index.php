@@ -29,8 +29,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
-</head>
-<body>
   <style>
     @font-face {
       font-family: 'Poppins';
@@ -60,6 +58,8 @@
           url('fonts/poppins-v15-latin-ext_latin-700.woff') format('woff');
     }
   </style>
+</head>
+<body>
   <header>
       <nav class="spacer">
         <p class="logo"><a href="./">BEADVME</a></p>
@@ -84,12 +84,11 @@
         </div>
       </nav>
     <section class="title">
-      <div class="title-img">
-        <img src="img/title-big.webp" 
-        srcset="img/title-small.webp 480w, 
-                img/title-big.webp 1920w"
-        alt="Zdjęcie biura" width="960" height="540">
-      </div>
+        <picture class="title-img">
+          <source media="(min-width: 480px)" srcset="img/title-960w.webp"></source>
+          <source media="(min-width: 300px)" srcset="img/title-480w.webp"></source>
+          <img src="img/title-960w.webp" alt="" width="960" height="540">
+        </picture>
       <div class="title-text">
         <h1>Agencja<br>Marketingowa</h1>
         <h2>Better Advertising Media</h2>
@@ -99,7 +98,7 @@
   </header>
   <section class="about spacer" id="about">
       <div class="about-svg">
-        <img src="img/about.svg" alt="" width="996.46" height="828.18">
+        <img src="img/about.svg" alt="" width="996" height="828">
       </div>
     <div class="about-text">
       <h2 class="cat">twój produkt jest <br>najważniejszy</h2>
@@ -112,46 +111,31 @@
   <section class="portfolio spacer">
     <h2 class="cat">nasze portfolio</h2>
     <div class="grid">
-      <img src="img/p1.webp" 
-        srcset="img/p1m.webp 480w, 
-                img/p1.webp 1920w"
-        alt="" width="600" height="700" class="i1">
-        <div class="s1">
-          <h3 class="project p1">LVBET Esport Social Media</h3>
-          <p class="serv">Social Media</p>
-        </div>
-      <img src="img/p2.webp" 
-        srcset="img/p2m.webp 480w, 
-                img/p2.webp 1920w"
-        alt="" width="600" height="700" class="i2 transform-portfolio" loading=lazy>
-        <div class="s2">
-          <h3 class="project p2">IT Company Booklet Design</h3>
-          <p class="serv">Kampanie Dedykowane</p>
-        </div>
-        <img src="img/p3.webp" 
-        srcset="img/p3m.webp 480w, 
-                img/p3.webp 1920w"
-        alt="" width="600" height="700" class="i3 transform-portfolio" loading="lazy">
-        <div class="s3">
-          <h3 class="project p3">Valkiria Esports Branding</h3>
-          <p class="serv">Identyfikacje Wizualne</p>
-        </div>
-      <img src="img/p4.webp" 
-        srcset="img/p4m.webp 480w, 
-                img/p4.webp 1920w"
-        alt="" width="600" height="700" class="i4 transform-portfolio" loading=lazy>
-        <div class="s4">
-          <h3 class="project p4">Las Vegas Energy Drink</h3>
-          <p class="serv">Web Design</p>
-        </div>
-      <img src="img/p5.webp" 
-        srcset="img/p5m.webp 480w, 
-                img/p5.webp 1920w"
-        alt="" width="600" height="700" class="i5 transform-portfolio" loading=lazy>
-        <div class="s5">
-          <h3 class="project p5">LVBET Szkolenia Login Page</h3>
-          <p class="serv">Web Design</p>
-        </div>
+      <img src="img/p1.webp"alt="" width="600" height="700" class="i1">
+      <div class="s1">
+        <h3 class="project p1">LVBET Esport Social Media</h3>
+        <p class="serv">Social Media</p>
+      </div>
+      <img src="img/p2.webp" alt="" width="600" height="700" class="i2 transform-portfolio" loading=lazy>
+      <div class="s2">
+        <h3 class="project p2">IT Company Booklet Design</h3>
+        <p class="serv">Kampanie Dedykowane</p>
+      </div>
+      <img src="img/p3.webp" alt="" width="600" height="700" class="i3 transform-portfolio" loading="lazy">
+      <div class="s3">
+        <h3 class="project p3">Valkiria Esports Branding</h3>
+        <p class="serv">Identyfikacje Wizualne</p>
+      </div>
+      <img src="img/p4.webp" alt="" width="600" height="700" class="i4 transform-portfolio" loading=lazy>
+      <div class="s4">
+        <h3 class="project p4">Las Vegas Energy Drink</h3>
+        <p class="serv">Web Design</p>
+      </div>
+      <img src="img/p5.webp" alt="" width="600" height="700" class="i5 transform-portfolio" loading=lazy>
+      <div class="s5">
+        <h3 class="project p5">LVBET Szkolenia Login Page</h3>
+        <p class="serv">Web Design</p>
+      </div>
       <div class="button">
         <a href="portfolio.html"><p>zobacz całe portfolio</p></a>
       </div>
@@ -160,12 +144,11 @@
   <section class="contact" id="contact">
     <h2 class="cat spacer">skontaktuj się z nami</h2>
     <div class="contact-flex">
-      <div class="contact-img">
-        <img src="img/contact-test.png" 
-        srcset="img/contact-test.png 480w, 
-                  img/contact-test.png 1920w"
-        alt="" width="960" height="540">
-      </div>
+      <picture class="contact-img">
+        <source media="(min-width: 480px)" srcset="img/contact-big.webp"></source>
+        <source media="(min-width: 300px)" srcset="img/contact-small.webp"></source>
+        <img src="img/contact-big.webp" alt="" width="960" height="540">
+      </picture>
       <div class="contact-left">
         <div class="contact-text">
           <div class="contact-email">
@@ -196,7 +179,7 @@
           </fieldset>
           <fieldset class="input">
             <label for="message">Treść wiadomości:</label>
-            <textarea id="message" type="text" name="message"></textarea>
+            <textarea id="message" name="message"></textarea>
             <span class="contact-border"></span>
           </fieldset>
           <fieldset class="input">
@@ -219,7 +202,7 @@
           <li><a href="uslugi.html" class="ul2">USŁUGI</a></li>
           <li><a href="portfolio.html" class="ul2">PORTFOLIO</a></li>
           <li><a href="#contact" class="ul2">KONTAKT</a></li>
-          <li><a href="#contact" class="ul2 weight">Polityka Prywatności</a></li>
+          <li><a href="polityka-prywatnosci.html" class="ul2 weight" rel="nofollow">Polityka Prywatności</a></li>
         </ul>
         <ul class="social-footer">
           <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul" rel="noopener">behance</a></li>
