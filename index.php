@@ -28,7 +28,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
   <style>
     @font-face {
       font-family: 'Poppins';
