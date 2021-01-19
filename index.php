@@ -102,7 +102,7 @@
       </div>
     <div class="about-text">
       <h2 class="cat">twój produkt jest <br>najważniejszy</h2>
-      <p class="desc">Jesteśmy agencją 360°, świad&shy;czymy usługi w szerokim zakresie od two&shy;rzenia stron i identyfikacji graficznych po prowadzenie kam&shy;panii marke&shy;tingowej. Moderujemy wszelkie treści zamiesz&shy;czane na stronach inter&shy;netowych oraz pro&shy;filach społecz&shy;nościowych. Zadbamy o twój wizerunek w sieci i nie tylko.</p>
+      <p class="desc">Jesteśmy agencją 360°, świad&shy;czymy usługi w szerokim zakresie od two&shy;rzenia stron i identyfikacji gra&shy;ficznych po prowadzenie kam&shy;panii marke&shy;tingowej. Moderujemy wszelkie treści zamiesz&shy;czane na stronach inter&shy;netowych oraz pro&shy;filach społecz&shy;nościowych. Zadbamy o twój wizerunek w sieci i nie tylko.</p>
       <div class="button">
         <a href="uslugi.html"><p>zobacz nasze usługi</p></a>
       </div>

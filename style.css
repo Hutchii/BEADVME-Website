@@ -3,7 +3,7 @@
   --white: #f6f6f6;
   --black: #14181a;
   --red: #ea0053;
-  --margin: clamp(1.6rem, 3.2vw, 4.2rem);
+  --margin: clamp(1.6rem, 4.2vw, 4.2rem);
 }
 *{
   box-sizing: border-box;
@@ -134,7 +134,7 @@ header nav{
 
 /* About */
 .about, .portfolio, .contact, .details{
-  margin: clamp(46px, 6.7vw, 128px) auto 0;
+  margin: clamp(72px, 6.7vw, 128px) auto 0;
 }
 .cat{
   font-size: clamp(3.6rem, 7vw, 6rem);
@@ -152,8 +152,8 @@ header nav{
 .button{
   background-color: var(--red);
   border: none;
-  height: 40px;
-  font-size: 2.1rem;
+  height: 34px;
+  font-size: 1.8rem;
   margin-top: 12px;
   cursor: pointer;
   border-radius: 2px;
@@ -164,11 +164,11 @@ header nav{
 }
 .button p{
   text-align: center;
-  padding-top: 4px;
+  padding-top: 3px;
   color: var(--white);
 }
 .about .button{
-  width: 244px;
+  width: 204px;
 }
 .button:active{
   transform: scale(0.98);
@@ -192,7 +192,7 @@ header nav{
   line-height: 1.2;
 }
 .portfolio .button{
-  width: 254px;
+  width: 210px;
   margin-top: 24px;
 }
 
@@ -421,6 +421,19 @@ footer .home{
   }
   .color{
     font-size: 1.6rem;
+  }
+  .button{
+    height: 40px;
+    font-size: 2.1rem;
+  }
+  .button p{
+    padding-top: 4px;
+  }
+  .about .button{
+    width: 244px;
+  }
+  .portfolio .button{
+    width: 254px;
   }
 }
 @media (min-width: 768px){
