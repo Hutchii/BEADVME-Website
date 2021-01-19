@@ -85,8 +85,8 @@
     </nav>
     <section class="title">
       <picture class="title-img">
-        <source media="(min-width: 480px)" srcset="img/title-960w.webp"></source>
-        <source media="(min-width: 300px)" srcset="img/title-480w.webp"></source>
+        <source media="(min-width: 480px)" srcset="img/title-960w.webp">
+        <source media="(min-width: 300px)" srcset="img/title-480w.webp">
         <img src="img/title-960w.webp" alt="" width="960" height="540">
       </picture>
       <div class="title-text">
@@ -111,7 +111,7 @@
   <section class="portfolio spacer">
     <h2 class="cat">nasze portfolio</h2>
     <div class="grid">
-      <img src="img/p1.webp"alt="" width="600" height="700" class="i1">
+      <img src="img/p1.webp" alt="" width="600" height="700" class="i1">
       <div class="s1">
         <h3 class="project p1">LVBET Esport Social Media</h3>
         <p class="serv">Social Media</p>
@@ -145,8 +145,8 @@
     <h2 class="cat spacer">skontaktuj się z nami</h2>
     <div class="contact-flex">
       <picture class="contact-img">
-        <source media="(min-width: 480px)" srcset="img/contact-960w.webp"></source>
-        <source media="(min-width: 300px)" srcset="img/contact-480w.webp"></source>
+        <source media="(min-width: 480px)" srcset="img/contact-960w.webp">
+        <source media="(min-width: 300px)" srcset="img/contact-480w.webp">
         <img src="img/contact-960w.webp" alt="" width="960" height="540">
       </picture>
       <div class="contact-left">
