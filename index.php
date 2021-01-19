@@ -61,34 +61,34 @@
 </head>
 <body>
   <header>
-      <nav class="spacer">
-        <p class="logo"><a href="./">BEADVME</a></p>
-        <ul class="menu">
-          <li><a href="./" class="home ul">HOME</a></li>
-          <li><a href="#about" class="ul">O NAS</a></li>
-          <li><a href="uslugi.html" class="ul">USŁUGI</a></li>
-          <li><a href="portfolio.html" class="ul">PORTFOLIO</a></li>
-          <li><a href="#contact" class="ul">KONTAKT</a></li>
-        </ul>
-        <ul class="social">
-          <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul" rel="noopener">behance</a></li>
-          <li><a href="https://www.facebook.com/Valkiriaesports" target="_blank" class="ul" rel="noopener">facebook</a></li>
-        </ul>
-        <div class="menu-mobile">
-          <p>MENU</p>
-          <div class="dropdown">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
-          </div>
+    <nav class="spacer">
+      <p class="logo"><a href="./">BEADVME</a></p>
+      <ul class="menu">
+        <li><a href="./" class="home ul">HOME</a></li>
+        <li><a href="#about" class="ul">O NAS</a></li>
+        <li><a href="uslugi.html" class="ul">USŁUGI</a></li>
+        <li><a href="portfolio.html" class="ul">PORTFOLIO</a></li>
+        <li><a href="#contact" class="ul">KONTAKT</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul" rel="noopener">behance</a></li>
+        <li><a href="https://www.facebook.com/Valkiriaesports" target="_blank" class="ul" rel="noopener">facebook</a></li>
+      </ul>
+      <div class="menu-mobile">
+        <p>MENU</p>
+        <div class="dropdown">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <section class="title">
-        <picture class="title-img">
-          <source media="(min-width: 480px)" srcset="img/title-960w.webp"></source>
-          <source media="(min-width: 300px)" srcset="img/title-480w.webp"></source>
-          <img src="img/title-960w.webp" alt="" width="960" height="540">
-        </picture>
+      <picture class="title-img">
+        <source media="(min-width: 480px)" srcset="img/title-960w.webp"></source>
+        <source media="(min-width: 300px)" srcset="img/title-480w.webp"></source>
+        <img src="img/title-960w.webp" alt="" width="960" height="540">
+      </picture>
       <div class="title-text">
         <h1>Agencja<br>Marketingowa</h1>
         <h2>Better Advertising Media</h2>
@@ -96,10 +96,10 @@
       </div>
     </section>
   </header>
-  <section class="about spacer" id="about">
-      <div class="about-svg">
-        <img src="img/about.svg" alt="" width="996" height="828">
-      </div>
+  <main class="about spacer" id="about">
+    <div class="about-svg">
+      <img src="img/about.svg" alt="" width="996" height="828">
+    </div>
     <div class="about-text">
       <h2 class="cat">twój produkt jest <br>najważniejszy</h2>
       <p class="desc">Jesteśmy agencją 360°, świad&shy;czymy usługi w szerokim zakresie od two&shy;rzenia stron i identyfikacji gra&shy;ficznych po prowadzenie kam&shy;panii marke&shy;tingowej. Moderujemy wszelkie treści zamiesz&shy;czane na stronach inter&shy;netowych oraz pro&shy;filach społecz&shy;nościowych. Zadbamy o twój wizerunek w sieci i nie tylko.</p>
@@ -107,7 +107,7 @@
         <a href="uslugi.html"><p>zobacz nasze usługi</p></a>
       </div>
     </div>
-  </section>
+  </main>
   <section class="portfolio spacer">
     <h2 class="cat">nasze portfolio</h2>
     <div class="grid">
@@ -145,9 +145,9 @@
     <h2 class="cat spacer">skontaktuj się z nami</h2>
     <div class="contact-flex">
       <picture class="contact-img">
-        <source media="(min-width: 480px)" srcset="img/contact-big.webp"></source>
-        <source media="(min-width: 300px)" srcset="img/contact-small.webp"></source>
-        <img src="img/contact-big.webp" alt="" width="960" height="540">
+        <source media="(min-width: 480px)" srcset="img/contact-960w.webp"></source>
+        <source media="(min-width: 300px)" srcset="img/contact-480w.webp"></source>
+        <img src="img/contact-960w.webp" alt="" width="960" height="540">
       </picture>
       <div class="contact-left">
         <div class="contact-text">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="świadczymy usługi w szerokim zakresie od tworzenia stron i identyfikacji graficznych po prowadzenie kampanii marketingowej.">
+  <meta name="description" content="Świadczymy usługi w szerokim zakresie od tworzenia stron i identyfikacji graficznych po prowadzenie kampanii marketingowej.">
   <meta name="keywords" content="agencja marketing desing grafika strona website kampania usługi">
   <meta name="author" content="Sebastian Blaik">
   <meta name="theme-color" content="#f6f6f6">
@@ -28,8 +28,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
-</head>
-<body>
   <style>
     @font-face {
       font-family: 'Poppins';
@@ -59,13 +57,15 @@
           url('fonts/poppins-v15-latin-ext_latin-700.woff') format('woff');
     }
   </style>
+</head>
+<body>
   <header>
     <nav class="spacer">
       <p class="logo"><a href="./">BEADVME</a></p>
       <ul class="menu">
         <li><a href="./" class="ul">HOME</a></li>
         <li><a href="./#about" class="ul">O NAS</a></li>
-        <li><a href="services.html" class="home ul">USŁUGI</a></li>
+        <li><a href="uslugi.html" class="home ul">USŁUGI</a></li>
         <li><a href="portfolio.html" class="ul">PORTFOLIO</a></li>
         <li><a href="./#contact" class="ul">KONTAKT</a></li>
       </ul>
@@ -84,13 +84,11 @@
     </nav>
   </header>
   <section class="title">
-    <div class="title-img">
-      <img src="img/services-big.webp" 
-      srcset="img/services-small.webp 480w, 
-              img/services-big.webp 960w"
-              sizes="(min-width: 480px) 100vw, 100vw"
-      alt="Zdjęcie biura" width="960" height="540">
-    </div>
+    <picture class="title-img">
+      <source media="(min-width: 480px)" srcset="img/services-960w.webp"></source>
+      <source media="(min-width: 300px)" srcset="img/services-480w.webp"></source>
+      <img src="img/services-960w.webp" alt="Usługi" width="960" height="540">
+    </picture>
     <div class="title-text services-text">
       <h1>Zakres Usług:</h1>
       <div class="service">
@@ -104,7 +102,7 @@
       <p class="desc">Powierz nam swój wizerunek w sieci! Pra&shy;co&shy;waliśmy m.in. dla: <span class="weight2">LVBET, LVBET Esport, BERPOL Rusztowania, Valkiria Esports.</span></p>
     </div>
   </section>
-  <section class="details spacer">
+  <main class="details spacer">
     <div class="details-flex">
       <div class="details-img">
         <img src="img/s1.svg" alt="">
@@ -177,7 +175,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </main>
   <footer>
     <div class="spacer">
       <nav>
@@ -185,10 +183,10 @@
         <ul class="menu-footer">
           <li><a href="./" class="ul2">HOME</a></li>
           <li><a href="./#about" class="ul2">O NAS</a></li>
-          <li><a href="services.html" class="home">USŁUGI</a></li>
+          <li><a href="uslugi.html" class="home">USŁUGI</a></li>
           <li><a href="portfolio.html" class="ul2">PORTFOLIO</a></li>
           <li><a href="./#contact" class="ul2">KONTAKT</a></li>
-          <li><a href="#contact" class="ul2 weight">Polityka Prywatności</a></li>
+          <li><a href="polityka-prywatnosci.html" class="ul2 weight" rel="nofollow">Polityka Prywatności</a></li>
         </ul>
         <ul class="social-footer">
           <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul" rel="noopener">behance</a></li>

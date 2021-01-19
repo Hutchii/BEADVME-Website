@@ -3,19 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nasza agencja świadczy usługi w szerokim zakresie od tworzenia stron i identyfikacji graficznych po prowadzenie kampanii marketingowych.">
-  <meta name="keywords" content="agencja marketing desing grafika better advertising media web graphics">
+  <meta name="description" content="Sprawdź nasze szerokie portfolio, od projektów stron internetowych, grafik na social media po identyfikacje wizualne i kampanie dedykowane!">
+  <meta name="keywords" content="agencja marketing desing grafika strona website kampania portfolio">
   <meta name="author" content="Sebastian Blaik">
   <meta name="theme-color" content="#f6f6f6">
-  <title>BEADVME - Agencja Marketingowa</title>
+  <title>Portfolio - Agencja Marketingowa BEADVME.PL</title>
+  <meta property ="og:title" content="Portfolio - Agencja Marketingowa BEADVME.PL"/>
+  <meta property ="og:description" content="Powierz nam swój wizerunek w sieci!"/>
+  <meta property ="og:type" content="website"/>
+  <meta property ="og:url" content="https://betteram.pl/portfolio"/>
+  <meta property ="og:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/og.webp"/>
+  <meta property ="twitter:title" content="Portfolio - Agencja Marketingowa BEADVME.PL"/>
+  <meta property ="twitter:description" content="Powierz nam swój wizerunek w sieci!"/>
+  <meta property ="twitter:card" content="summary"/>
+  <meta property ="twitter:url" content="https://betteram.pl/portfolio"/>
+  <meta property ="twitter:image" content="https://raw.githubusercontent.com/Hutchii/BEADVME-Website/main/img/twitter.png"/>
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-300.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-500.woff2" type="font/woff2" crossorigin> 
   <link rel="preload" as="font" href="fonts/poppins-v15-latin-ext_latin-700.woff2" type="font/woff2" crossorigin>
   <link rel="preload" href="style.css" as="style">
   <link rel="stylesheet" href="style.css">
   <link rel="preload" href="js/navbar.js" as="script">
-</head>
-<body>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
   <style>
     @font-face {
       font-family: 'Poppins';
@@ -45,6 +57,8 @@
           url('fonts/poppins-v15-latin-ext_latin-700.woff') format('woff');
     }
   </style>
+</head>
+<body>
   <header>
     <nav class="spacer">
       <p class="logo"><a href="./">BEADVME</a></p>
@@ -68,84 +82,57 @@
         </div>
       </div>
     </nav>
+  </header>
   <section class="title">
-    <div class="title-img">
-      <img src="img/portfolio-big.webp" 
-      srcset="img/portfolio-small.webp 480w, 
-      img/portfolio-big.webp 1920w"
-      alt="Zdjęcie biura" width="960" height="540">
-    </div>
+    <picture class="title-img">
+      <source media="(min-width: 480px)" srcset="img/portfolio-960w.webp"></source>
+      <source media="(min-width: 300px)" srcset="img/portfolio-480w.webp"></source>
+      <img src="img/portfolio-960w.webp" alt="Portfolio" width="960" height="540">
+    </picture>
     <div class="title-text services-text">
       <h1>Nasze Portfolio</h1>
       <p class="desc">Każdy projekt traktujemy indywidualnie i podchodzimy do niego z największą motywacją! Pracowaliśmy między innymi dla: <span class="font">LVBET, LVBET Esport, BERPOL Rusztowania, Valkiria Esports.</span></p>
     </div>
   </section>
-</header>
-    <section class="title-portfolio spacer">
-        <div class="line-1">
-          <div class="line-element-1">
-            <img src="img/p3.webp" 
-            srcset="img/p3m.webp 480w, 
-                    img/p3.webp 1920w"
-            alt="" width="600" height="700">
-            <h3 class="project-portfolio">Valkiria Esports Branding</h3>
-            <p class="serv">Identyfikacje Wizualne</p>
-            <a href="#" class="color color-1"><p">zobacz projekt</p></a>
-          </div>
-          <div class="line-element-2">
-            <img src="img/p2.webp" 
-            srcset="img/p2m.webp 480w, 
-                    img/p2.webp 1920w"
-            alt="" width="600" height="700">
-            <h3 class="project-portfolio">IT Company Booklet Design</h3>
-            <p class="serv">Kampanie Dedykowane</p>
-            <a href="#" class="color color-2"><p">zobacz projekt</p></a>
-          </div>
-          <div class="line-element-1">
-          <img src="img/p1.webp" 
-          srcset="img/p1m.webp 480w, 
-                  img/p1.webp 1920w"
-          alt="" width="600" height="700" loading="lazy">
-          <div class="s3">
-            <h3 class="project-portfolio">LVBET Esport Social Media</h3>
-            <p class="serv">Social Media</p>
-            <a href="#" class="color color-3"><p">zobacz projekt</p></a>
-          </div>
-        </div>
-        <div class="line-element-2">
-          <img src="img/p4.webp" 
-          srcset="img/p4m.webp 480w, 
-                  img/p4.webp 1920w"
-          alt="" width="600" height="700" loading=lazy>
-          <div class="s4">
-            <h3 class="project-portfolio">Las Vegas Energy Drink</h3>
-            <p class="serv">Web Design</p>
-            <a href="#" class="color color-4"><p">zobacz projekt</p></a>
-          </div>
-        </div>
-        <div class="line-element-1">
-          <img src="img/p5.webp" 
-          srcset="img/p5m.webp 480w, 
-                  img/p5.webp 1920w"
-          alt="" width="600" height="700" loading=lazy>
-          <div class="s5">
-            <h3 class="project-portfolio">LVBET Szkolenia Login Page</h3>
-            <p class="serv">Web Design</p>
-            <a href="#" class="color color-5"><p">zobacz projekt</p></a>
-          </div>
-        </div>
-        <div class="line-element-2">
-          <img src="img/p6.png" 
-          srcset="img/p6.png 480w, 
-                  img/p6.png 1920w"
-          alt="" width="600" height="700" loading=lazy>
-          <div class="s5">
-            <h3 class="project-portfolio">Zgorzelec Games Week</h3>
-            <p class="serv">Social Media</p>
-          </div>
-        </div>
-        </div>
-    </section>
+  <main class="title-portfolio spacer">
+    <div class="grid-2">
+      <div>
+        <img src="img/p1.webp" alt="" width="600" height="700">
+        <h3 class="project-portfolio">LVBET Esport Social Media</h3>
+        <p class="serv">Social Media</p>
+        <a href="#" class="color color-3"><p">zobacz projekt</p></a>
+      </div>
+      <div>
+        <img src="img/p2.webp" alt="" width="600" height="700">
+        <h3 class="project-portfolio">IT Company Booklet Design</h3>
+        <p class="serv">Kampanie Dedykowane</p>
+        <a href="#" class="color color-2"><p">zobacz projekt</p></a>
+      </div>
+      <div>
+        <img src="img/p3.webp" alt="" width="600" height="700" loading="lazy">
+        <h3 class="project-portfolio">Valkiria Esports Branding</h3>
+        <p class="serv">Identyfikacje Wizualne</p>
+        <a href="#" class="color color-1"><p">zobacz projekt</p></a>
+      </div>
+      <div>
+        <img src="img/p4.webp" alt="" width="600" height="700" loading=lazy>
+        <h3 class="project-portfolio">Las Vegas Energy Drink</h3>
+        <p class="serv">Web Design</p>
+        <a href="#" class="color color-4"><p">zobacz projekt</p></a>
+      </div>
+      <div>
+        <img src="img/p5.webp" alt="" width="600" height="700" loading=lazy>
+        <h3 class="project-portfolio">LVBET Szkolenia Login Page</h3>
+        <p class="serv">Web Design</p>
+        <a href="#" class="color color-5"><p">zobacz projekt</p></a>
+      </div>
+      <div>
+        <img src="img/p6.webp" alt="" width="600" height="700" loading=lazy>
+        <h3 class="project-portfolio">Zgorzelec Games Week</h3>
+        <p class="serv">Social Media</p>
+      </div>
+    </div>
+  </main>
   <footer>
     <div class="spacer">
       <nav>

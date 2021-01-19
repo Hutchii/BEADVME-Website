@@ -178,7 +178,7 @@ header nav{
 .portfolio .cat, .contact .cat{
   margin-bottom: 32px;
 }
-.portfolio img~img, .line-1 img{
+.portfolio img~img, .grid-2 img{
   margin-top: clamp(36px, 7vw, 56px);
 }
 .project, .project-portfolio{
@@ -354,6 +354,7 @@ footer .home{
 }
 .service p{
   margin-right: 32px;
+  margin-top: 2px;
 }
 .service p:nth-of-type(even){
   font-weight: 300;
@@ -363,7 +364,7 @@ footer .home{
   margin-top: 32px;
 }
 .details .desc{
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .details .button{
   width: 178px;
@@ -463,9 +464,6 @@ footer .home{
   .menu li~li{
     margin-left: clamp(32px, 3.3vw, 46px);
   }
-  .home{
-    font-weight: 700;
-  }
   .title{
     display: flex;
     flex-direction: row-reverse;
@@ -543,7 +541,7 @@ footer .home{
   .transform-button{
     animation: shake 1.2s infinite cubic-bezier(0.4,0,0.4,1);
   }
-  .portfolio img~img, .line-1 img{
+  .portfolio img~img, .grid-2 img{
     margin-top: 0;
   }
   .contact-flex{
@@ -663,19 +661,16 @@ footer .home{
   .title-portfolio{
     margin: clamp(64px, 20vw, 232px) auto 0;
   }
-  .line-1{
+  .grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
     margin-top: 128px;
   }
-  .line-element-2{
+  .grid-2 div:nth-of-type(even){
     justify-self: end;
-    margin-top: 100px;
+    margin-top: -64px;
   }
-  /* .title-portfolio .desc{
-    width: 500px;
-  } */
   .project-portfolio {
     font-size: clamp(3.2rem, 3vw, 4.2rem);
   }
