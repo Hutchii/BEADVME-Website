@@ -14,7 +14,6 @@ function portfolio(click, index) {
     }
   });
 }
-
 for (let i = 0; i < pr.length; i++) {
   portfolio(pr[i], i);
 }
