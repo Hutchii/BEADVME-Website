@@ -111,29 +111,29 @@
   <section class="portfolio spacer">
     <h2 class="cat">nasze portfolio</h2>
     <div class="grid">
-      <img src="img/p1.webp" alt="" width="600" height="700" class="i1">
-      <div class="s1">
-        <h3 class="project p1">LVBET Esport Social Media</h3>
+      <img src="img/p1.webp" alt="" width="600" height="700" class="tr">
+      <div>
+        <h3 class="project pr color-change">LVBET Esport Social Media</h3>
         <p class="serv">Social Media</p>
       </div>
-      <img src="img/p2.webp" alt="" width="600" height="700" class="i2 transform-portfolio" loading=lazy>
-      <div class="s2">
-        <h3 class="project p2">IT Company Booklet Design</h3>
+      <img src="img/p2.webp" alt="" width="600" height="700" class="transform-portfolio tr" loading=lazy>
+      <div>
+        <h3 class="project pr">IT Company Booklet Design</h3>
         <p class="serv">Kampanie Dedykowane</p>
       </div>
-      <img src="img/p3.webp" alt="" width="600" height="700" class="i3 transform-portfolio" loading="lazy">
-      <div class="s3">
-        <h3 class="project p3">Valkiria Esports Branding</h3>
+      <img src="img/p3.webp" alt="" width="600" height="700" class="transform-portfolio tr" loading="lazy">
+      <div>
+        <h3 class="project pr">Valkiria Esports Branding</h3>
         <p class="serv">Identyfikacje Wizualne</p>
       </div>
-      <img src="img/p4.webp" alt="" width="600" height="700" class="i4 transform-portfolio" loading=lazy>
-      <div class="s4">
-        <h3 class="project p4">Las Vegas Energy Drink</h3>
+      <img src="img/p4.webp" alt="" width="600" height="700" class="transform-portfolio tr" loading=lazy>
+      <div>
+        <h3 class="project pr">Las Vegas Energy Drink</h3>
         <p class="serv">Web Design</p>
       </div>
-      <img src="img/p5.webp" alt="" width="600" height="700" class="i5 transform-portfolio" loading=lazy>
-      <div class="s5">
-        <h3 class="project p5">LVBET Szkolenia Login Page</h3>
+      <img src="img/p5.webp" alt="" width="600" height="700" class="transform-portfolio tr" loading=lazy>
+      <div>
+        <h3 class="project pr">LVBET Szkolenia Login Page</h3>
         <p class="serv">Web Design</p>
       </div>
       <div class="button">
