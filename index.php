@@ -65,14 +65,14 @@
       <p class="logo"><a href="./">BEADVME</a></p>
       <ul class="menu">
         <li><a href="./" class="home ul">HOME</a></li>
-        <li><a href="#about" class="ul">O NAS</a></li>
+        <li><a href="#about" class="ul hide">O NAS</a></li>
         <li><a href="uslugi.html" class="ul">USŁUGI</a></li>
         <li><a href="portfolio.html" class="ul">PORTFOLIO</a></li>
-        <li><a href="#contact" class="ul">KONTAKT</a></li>
+        <li><a href="#contact" class="ul hide">KONTAKT</a></li>
       </ul>
       <ul class="social">
-        <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul" rel="noopener">behance</a></li>
-        <li><a href="https://www.facebook.com/Valkiriaesports" target="_blank" class="ul" rel="noopener">facebook</a></li>
+        <li><a href="https://www.behance.net/hutchi" target="_blank" class="ul hide" rel="noopener">behance</a></li>
+        <li><a href="https://www.facebook.com/Valkiriaesports" target="_blank" class="ul hide" rel="noopener">facebook</a></li>
       </ul>
       <div class="menu-mobile">
         <p>MENU</p>

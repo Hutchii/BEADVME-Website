@@ -1,20 +1,15 @@
-var click = document.querySelector('.menu-mobile');
-var menu = document.querySelector('.menu');
-var social = document.querySelector('.social');
-var dropdown = document.querySelector('.dropdown');
-var title = document.querySelector('.title');
+const click = document.querySelector(".menu-mobile");
+const hide = document.querySelectorAll(".hide");
 
-click.addEventListener('click', () => {
-    menu.classList.toggle('transform-navbar');
-    social.classList.toggle('transform-navbar');
-    dropdown.classList.toggle('toggle');
-    title.classList.toggle('transform-title');
+const dropdownMenu = function () {
+  document.querySelector(".menu").classList.toggle("transform-navbar");
+  document.querySelector(".social").classList.toggle("transform-navbar");
+  document.querySelector(".dropdown").classList.toggle("toggle");
+  document.querySelector(".title").classList.toggle("transform-title");
+};
+
+click.addEventListener("click", dropdownMenu);
+
+hide.forEach((item) => {
+  item.addEventListener("click", dropdownMenu);
 });
-document.querySelectorAll('.ul').forEach(item => {
-    item.addEventListener('click', event => {
-        menu.classList.remove('transform-navbar');
-        social.classList.remove('transform-navbar');
-        dropdown.classList.toggle('toggle');
-        title.classList.toggle('transform-title');
-    })
-})
